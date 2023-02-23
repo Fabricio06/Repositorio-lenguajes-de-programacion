@@ -27,6 +27,14 @@ import (
 //         *
 Para dicho fin, escriba y use una función que reciba de parámetro la cantidad de elementos de la línea del centro, la cual debe ser impar positiva.
 */
+
+func main() {
+	var cantidad int = 19 //El numero impar positivo del medio
+	if cantidad%2 != 0 && cantidad > 0 {
+		dibujar(cantidad)
+	}
+}
+
 func tab(cant_tabs int) {
 	if cant_tabs < 0 {
 		cant_tabs = -cant_tabs
@@ -55,11 +63,4 @@ func dibujar(cant_elementos int) {
 		fmt.Println("")
 	}
 
-}
-
-func main() {
-	var cantidad int = 19
-	if cantidad%2 != 0 && cantidad > 0 {
-		dibujar(cantidad)
-	}
 }
