@@ -51,7 +51,7 @@ func rotarSecuencia(pLista *[]string, nPosiciones int, direccion byte) {
 	if nPosiciones > len(*pLista) {
 		nPosiciones -= len(*pLista)
 	}
-	
+
 	if direccion == 0 {
 		*pLista = append((*pLista)[nPosiciones:], (*pLista)[:nPosiciones]...)
 	} else {
