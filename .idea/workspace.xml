@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53f8bea8-07c5-46a6-bdd3-102009b2e5fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Paradigma Imperativo/ejercicio_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigma Imperativo/ejercicio_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paradigma Imperativo/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Paradigma Imperativo/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
